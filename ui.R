@@ -186,30 +186,6 @@ ui <- dashboardPage(title="Equipo 1",
                  Sin embargo, el ritmo de crecimiento –y la tasa de fecundidad (para 2019 de 2.1 hijos por mujer)– será cada vez menor hasta llegar al punto de disminución de la población por crecimiento natural, 
                  fenómeno que ocurrirá por primera vez desde la época revolucionaria.\" Fuente: Proyecciones de la población de México y de las entidades federativas 2016-2050, 
                    elaborado por la Secretaría de Gobernación, El Colegio de México, y el Fondo de Población de las Naciones Unidas (Unfpa).")
-              ),
-              sidebarLayout(
-                 sidebarPanel(
-                    h3("Esperanza de vida"),
-                    helpText("Seleccione el año y variable"),
-                    sliderInput(inputId = "year_esperanza", 
-                                label = "Año", 
-                                value = 1, min = 2010, max = 2018, step=1, animate=animationOptions(interval = 2000, loop = TRUE)),
-                    selectInput("var_esperanza", 
-                                label = "Variable",
-                                choices = variables_esperanza,
-                                selected = 1
-                    ),
-                    h5(a(target="_blank",href="https://github.com/diego-eco/proyecto_visualizacion/blob/main/gifs/Esperanza_vida.gif", "Descargar GIF"), align = "center"),
-                    h5(a(target="_blank",href="https://github.com/diego-eco/proyecto_visualizacion/blob/main/gifs/Esperanza_vida.png", "Descargar PNG"), align = "center"),
-                    br(),
-                    helpText("Elaboración propia con datos de INEGI y CONAPO.")
-                 ),
-                 mainPanel(plotOutput('mapa_esperanza'))
-              ),
-              box(
-                 title = "¿Sabías qué?", width = NULL, solidHeader = TRUE, status = "warning",
-                 p(align="center","\"En 2019, la esperanza de vida de las personas en México es de 75.1 años en promedio y para 2030 se estima que sea de 76.7 años. 
-                 La de las mujeres es superior a la de los hombres con una brecha de casi seis años.\" Fuente: Conapo")
               )
       ), # Termina Tab Internacional
       # Inicia Natalidad Visual
@@ -494,8 +470,8 @@ ui <- dashboardPage(title="Equipo 1",
                                     selected = 1))
                  ),
                  fluidRow(
-                    column(6,plotlyOutput('tendencia_divorcio')),
-                    column(6,plotlyOutput('tendencia_matrimonio'))
+                    column(6,plotlyOutput('tendencia_matrimonio')),
+                    column(6,plotlyOutput('tendencia_divorcio'))
                  ),
                  box(
                     title = "¿Sabías qué?", width = NULL, solidHeader = TRUE, status = "primary",
@@ -952,7 +928,31 @@ ui <- dashboardPage(title="Equipo 1",
               ),
               helpText(style="text-align: justify;","Es evidente que la región norte cumple con la relación positiva entre esperanza de vida e ingreso medio. La relación en el sur del país es más compleja,
                                 estados como Guerrero y Oaxaca presentan una esperanza de vida casi un año por debajo de la media nacional pero sus salarios medios no se encuentran tan alejados
-                                de la media. Esto puede ser parcialmente explicado porque estamos tomando salarios formales (Imss) en promedio mayores. Se requiere mayor investigación.")
+                                de la media. Esto puede ser parcialmente explicado porque estamos tomando salarios formales (Imss) en promedio mayores. Se requiere mayor investigación."),
+              sidebarLayout(
+                 sidebarPanel(
+                    h3("Esperanza de vida"),
+                    helpText("Seleccione el año y variable"),
+                    sliderInput(inputId = "year_esperanza", 
+                                label = "Año", 
+                                value = 1, min = 2010, max = 2018, step=1, animate=animationOptions(interval = 2000, loop = TRUE)),
+                    selectInput("var_esperanza", 
+                                label = "Variable",
+                                choices = variables_esperanza,
+                                selected = 1
+                    ),
+                    h5(a(target="_blank",href="https://github.com/diego-eco/proyecto_visualizacion/blob/main/gifs/Esperanza_vida.gif", "Descargar GIF"), align = "center"),
+                    h5(a(target="_blank",href="https://github.com/diego-eco/proyecto_visualizacion/blob/main/gifs/Esperanza_vida.png", "Descargar PNG"), align = "center"),
+                    br(),
+                    helpText("Elaboración propia con datos de INEGI y CONAPO.")
+                 ),
+                 mainPanel(plotOutput('mapa_esperanza'))
+              ),
+              box(
+                 title = "¿Sabías qué?", width = NULL, solidHeader = TRUE, status = "warning",
+                 p(align="center","\"En 2019, la esperanza de vida de las personas en México es de 75.1 años en promedio y para 2030 se estima que sea de 76.7 años. 
+                 La de las mujeres es superior a la de los hombres con una brecha de casi seis años.\" Fuente: Conapo")
+              )
               
       ),
       tabItem(tabName = "team",
@@ -964,7 +964,8 @@ ui <- dashboardPage(title="Equipo 1",
                      br(),
                      HTML('<center><img src="joel.png" width="100"></center>'),
                      br(),
-                     a("jocastillo@colmex.mx", href = "mailto:jocastillo@colmex.mx"),align="center"),
+                     a("jocastillo@colmex.mx", href = "mailto:jocastillo@colmex.mx"),br(),
+                     a("@Joel_caes", href = "https://twitter.com/Joel_caes"),align="center"),
                  box(h4(strong("Williams Gómez Cerino"),align="center"),width = 4,
                      br(),
                      HTML('<center><img src="will.png" width="100"></center>'),
@@ -975,7 +976,7 @@ ui <- dashboardPage(title="Equipo 1",
                      HTML('<center><img src="diego.png" width="100"></center>'),
                      br(),
                      a("diego.lopez@colmex.mx", href = "mailto:diego.lopez@colmex.mx"),br(),
-                     a("@diego_lopezt", href = "https://twitter.com/diego_lopezt"), align="center"),
+                     a("@diego_lopezt", href = "https://twitter.com/diego_lopezt"), align="center")
                  
                  ),
               br(),
