@@ -1,0 +1,31 @@
+﻿concepto,def
+Condición de sobrevivencia al momento de registro,Indica si la persona tiene vida o no en el momento en el que se expide su acta de nacimiento.
+Edad,Tiempo transcurrido entre la fecha de nacimiento de la persona y la del momento en que ocurre o se registra el hecho vital.
+Edad de los padres al nacimiento,"Es la edad, en años cumplidos, que tienen los padres en la fecha en que ocurre el nacimiento."
+Edad de los padres al registro,Es el número de años cumplidos que tienen los padres en el momento de registrar el nacimiento de su hijo.
+Entidad federativa,Unidad geográfica mayor de la división político-administrativa del país; el territorio nacional se divide en 31 estados y un Distrito Federal.
+Estado conyugal,"Situación de las personas en relación con los derechos y obligaciones legales y de costumbre del país, respecto de la unión o matrimonio, incluye por lo tanto, las condiciones de hecho y derecho."
+Fecha de ocurrencia,"Día, mes y año en que ocurrió el hecho vital."
+Fecha de registro,"Día, mes y año en que se inscribe el hecho vital en la institución correspondiente."
+Localidad,"Lugar, circunscrito a un municipio o delegación, ocupado por una o más viviendas, las cuales pueden estar habitadas o no. Este lugar es reconocido por un nombre dado por la ley o costumbre."
+Lugar de atención al parto,"Se refiere al lugar físico en donde tuvo lugar el hecho, ya sea una unidad hospitalaria de cualquier tipo u otro lugar."
+Lugar de ocurrencia,"Entidad federativa, municipio o delegación y localidad donde ocurrió el hecho vital."
+Lugar de registro,"Entidad federativa, municipio o delegación y localidad donde se inscribe el hecho vital."
+Lugar de residencia habitual,"Entidad federativa, municipio o delegación y localidad donde la persona tiene su domicilio particular, principal o permanente."
+Municipio o delegación,"División territorial político-administrativa de una entidad federativa. En el caso del Distrito Federal, las 16 delegaciones políticas son equivalentes a los municipios."
+Nacidos vivos registrados,"Es el número de nacimientos inscritos en el Registro Civil en un período determinado, generalmente de un año. Incluye a los nacidos vivos en el mismo año (registro oportuno) y a los nacidos en años anteriores (registro extemporáneo)."
+Nacimiento vivo,"Expulsión o extracción completa del cuerpo de la madre, independientemente de la duración del embarazo, de un producto de la concepción que después de la separación respire o manifieste cualquier otro signo de vida, como el latido del corazón, la pulsación del cordón umbilical o el movimiento efectivo de músculos voluntarios, haya sido o no cortado el cordón umbilical y este o no unida a la placenta; cada producto de tal alumbramiento es considerado nacido vivo."
+Nivel de escolaridad,Último grado aprobado en el ciclo de instrucción alcanzado que declare haber cursado la persona en el sistema educativo nacional o su equivalente en el caso de estudios en el extranjero al momento de registrar el hecho vital.
+Número de hijos nacidos muertos,Con esta variable se capta el número de hijos nacidos muertos tenidos por la madre en sus embarazos.
+Número de hijos nacidos vivos,Se refiere al número total de hijos nacidos vivos que haya tenido la madre hasta el momento en que está registrando su último hijo.
+Número de hijos sobrevivientes,"Es el total de hijos nacidos vivos que declaró haber tenido la madre durante toda su vida y que aún están vivos, aunque no residan con ella al momento en que está registrando a su último hijo."
+Orden del nacimiento o parto,"Orden numérico del nacimiento vivo que se registra, en relación con todos los partos anteriores de la madre, independientemente de que el parto fuera de un nacido vivo o un nacido muerto."
+Persona que atendió el nacimiento o el parto,Individuo que asistió a la madre durante el parto de un niño nacido vivo o la expulsión de un feto muerto.
+Posición en el trabajo,"Clasificación de la población ocupada, según su relación con los medios de producción y con la propiedad de los bienes y servicios generados en el desempeño de su trabajo."
+Registro extemporáneo,"Es el registro del nacimiento en un año diferente, posterior al año de ocurrencia."
+Registro oportuno,Es el registro de los nacimientos ocurridos y registrados en un año determinado. Excluye a los nacimientos ocurridos en años anteriores.
+Sexo,Condición biológica que distingue a las personas en hombres y mujeres.
+Situación laboral,"Distingue a la población que al momento del registro del hecho vital tiene trabajo de la que no tiene, esta última se clasifica de acuerdo al tipo de actividad no económica que se encuentra desarrollando."
+Tamaño de localidad de residencia habitual,"Número de habitantes que tiene cada localidad, de acuerdo a rangos establecidos."
+Tiempo transcurrido hasta el momento del registro,Es el espacio de tiempo transcurrido entre el momento del nacimiento y el registro.
+Tipo de nacimiento o clase de embarazo,Indica si el embarazo termino en un parto simple o múltiple.
