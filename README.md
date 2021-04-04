@@ -1,5 +1,7 @@
 # Proyecto de visualización de datos
 
+https://diego-lopezt.shinyapps.io/Poblacion_Economia/
+
 Esta ShinyApp busca ofrecer al usuario un panorama general de la relación entre las principales variables de población: Natalidad, Fecundidad, Mortalidad y Nupcialidad con variables económicas.
 
 Se divide en secciones descriptivas de las variables con gráficas y mapas interactivos para el periodo 2000-2019 y al final se complementa con un análisis de cluster y regresiones cuantiles.
